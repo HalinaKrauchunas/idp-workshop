@@ -5,7 +5,8 @@ metadata:
   name: Workflows-Quickstart-ArloH
   title: Create a New GitHub Repository
   description: My First Project
-  tags: ArloH
+  tags:
+    - ArloH
 spec:
   owner: TeamB
   type: service
