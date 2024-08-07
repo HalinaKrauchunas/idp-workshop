@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name:  arloh-service-dependency
+  name: hkrauchunas-service-dependency
   description: |
     My Example service which has something to do with APIs and database.
   links:
@@ -25,7 +25,7 @@ spec:
   lifecycle: experimental
 #  system: Demo
   dependsOn:
-    - component:default/component:default/arloh-service
+    - component:default/hkrauchunas-service
 #  consumesApis:
 #    - user-api
 #  providesApis:
