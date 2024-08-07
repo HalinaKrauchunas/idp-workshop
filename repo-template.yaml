@@ -1,16 +1,14 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
-# some metadata about the template itself
 metadata:
   name: Workflows-Quickstart-ArloH
   title: Create a New GitHub Repository
   description: My First Project
   tags:
-    - ArloH
+    - arloh
 spec:
   owner: TeamB
   type: service
-  # these are the steps which are rendered in the frontend with the form input
   parameters:
     - title: Fill in the repo details
       required:
@@ -42,8 +40,7 @@ spec:
           title: Harness Token
           type: string
           ui:widget: password
-          ui:field: HarnessAuthToken       
-  # here's the steps that are executed in series in the scaffolder backend
+          ui:field: HarnessAuthToken
   steps:
     - id: trigger
       name: Onboarding a New GitHub Repository
@@ -54,8 +51,6 @@ spec:
           github_org: ${{ parameters.github_org_name }}
           github_repo: ${{ parameters.github_repo_name }}
         apikey: ${{ parameters.token }}
-    # The final step is to register our new component in the catalog.
-
   output:
     links:
       - title: Pipeline Details
