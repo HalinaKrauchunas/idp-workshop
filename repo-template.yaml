@@ -2,11 +2,12 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: Workflows-Quickstart
+  name: Workflows-Quickstart-ArloH
   title: Create a New GitHub Repository
-  description: Creates a new GitHub Repository 
+  description: My First Project
+  tags: ArloH
 spec:
-  owner: TeamA
+  owner: TeamB
   type: service
   # these are the steps which are rendered in the frontend with the form input
   parameters:
