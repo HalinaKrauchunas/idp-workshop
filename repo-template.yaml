@@ -1,11 +1,11 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Workflows-Quickstart-ArloH
+  name: hkrauchunas-service
   title: Create a New GitHub Repository
-  description: My First Project
+  description: My first service
   tags:
-    - arloh
+    - hkrauchunas
 spec:
   owner: TeamA
   type: service
