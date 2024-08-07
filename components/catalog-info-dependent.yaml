@@ -18,7 +18,7 @@ spec:
   owner: change-value
   lifecycle: experimental
   dependsOn:
-    - component: default/hkrauchunas-service
+    - default/hkrauchunas-service
   # consumesApis:
   #   - user-api
   # providesApis:
