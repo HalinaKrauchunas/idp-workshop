@@ -15,7 +15,7 @@ metadata:
     - hkrauchunas
 spec:
   type: service
-  owner: change-value
+  owner: hkrauchunas
   lifecycle: experimental
   dependsOn:
     - component:default/hkrauchunas-service
