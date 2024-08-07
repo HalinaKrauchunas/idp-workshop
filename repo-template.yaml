@@ -7,7 +7,7 @@ metadata:
   tags:
     - arloh
 spec:
-  owner: TeamB
+  owner: TeamA
   type: service
   parameters:
     - title: Fill in the repo details
